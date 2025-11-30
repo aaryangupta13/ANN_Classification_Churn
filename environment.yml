@@ -1,0 +1,13 @@
+name: ANN_Classification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - tensorflow==2.15.0
+  - scikit-learn
+  - tensorboard
+  - matplotlib
+  - streamlit
